@@ -4,16 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
-#include "BaseCharecter.generated.h"
+#include "BasePlayer.generated.h"
 
 UCLASS()
-class GAMEJAMMETROIDVANIA_API ABaseCharecter : public ACharacter
+class GAMEJAMMETROIDVANIA_API ABasePlayer : public ACharacter
 {
 	GENERATED_BODY()
 
 public:
 	// Sets default values for this character's properties
-	ABaseCharecter();
+	ABasePlayer();
 
 protected:
 	// Called when the game starts or when spawned
